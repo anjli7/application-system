@@ -2,7 +2,7 @@
 // Database configuration
 $db_host = 'localhost';
 $db_user = 'root';
-$db_pass = '12345678';
+$db_pass = '';
 $db_name = 'application_system';
 
 // Initialize logger
@@ -11,7 +11,7 @@ $logger = Logger::getInstance();
 
 // Create connection
 try {
-    $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
+    $conn = new mysqli(hostname: $db_host, username: $db_user, password: $db_pass, database: $db_name);
     if ($conn->connect_error) {
         $errorMessage = "Connection failed: " . $conn->connect_error;
         $logger->error($errorMessage);
