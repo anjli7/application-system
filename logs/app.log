@@ -8962,3 +8962,86 @@
 (
 )
 
+[2025-09-01 09:43:22] [INFO] [::1] Session contents: Array
+(
+)
+
+[2025-09-01 09:43:30] [INFO] [::1] Session contents: Array
+(
+)
+
+[2025-09-01 09:43:30] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:13:30] [INFO] [::1] User found: {"id":1,"name":"Anjali Kushwah ","email":"anjalikushwaha@gmail.com","password":"$2y$10$VT2lfHdUoZrjimGRLwHil.ryoIB.qlzfZznVKyaBuy64kiK4SMpLi","role":"admin","status":"active","reset_token":null,"reset_token_expires":null,"last_login":"2025-08-08 15:32:29","created_at":"2025-07-18 09:22:15","updated_at":"2025-08-08 15:32:29"}
+[2025-09-01 13:13:30] [INFO] [::1] Password verified successfully
+[2025-09-01 09:43:31] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:13:31] [INFO] [::1] Application initialized
+[2025-09-01 13:13:31] [INFO] [::1] Admin dashboard accessed
+[2025-09-01 09:43:34] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:43:50] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:43:50] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:45:28] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:45:46] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:46:30] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:46:36] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:16:36] [INFO] [::1] Application initialized
+[2025-09-01 13:16:36] [INFO] [::1] Admin dashboard accessed
+[2025-09-01 09:46:38] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:16:38] [INFO] [::1] Application initialized
+[2025-09-01 09:46:42] [INFO] [::1] Application initialized
+[2025-09-01 13:16:42] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:46:42] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:16:42] [INFO] [::1] Application initialized
+[2025-09-01 09:47:57] [INFO] [::1] Application initialized
+[2025-09-01 13:17:57] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:47:57] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:17:57] [INFO] [::1] Application initialized
+[2025-09-01 09:47:59] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:17:59] [INFO] [::1] Application initialized
+[2025-09-01 09:48:07] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:18:07] [INFO] [::1] Application initialized
+[2025-09-01 13:18:07] [INFO] [::1] Admin dashboard accessed
+[2025-09-01 09:48:13] [INFO] [::1] Database connection established successfully
+[2025-09-01 09:48:19] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:18:19] [INFO] [::1] Application initialized
+[2025-09-01 13:18:19] [INFO] [::1] Admin dashboard accessed
+[2025-09-01 10:29:37] [INFO] [::1] Session contents: Array
+(
+    [user_id] => 1
+    [user_name] => Anjali Kushwah 
+    [user_email] => anjalikushwaha@gmail.com
+    [user_role] => admin
+    [profile_picture] => 68988fce6b0a7.jpg
+)
+
+[2025-09-01 10:29:37] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:59:37] [INFO] [::1] Application initialized
+[2025-09-01 13:59:37] [INFO] [::1] Admin dashboard accessed
+[2025-09-01 10:29:41] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:29:45] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:29:47] [INFO] [::1] Database connection established successfully
+[2025-09-01 13:59:47] [INFO] [::1] Application initialized
+[2025-09-01 13:59:47] [INFO] [::1] Admin dashboard accessed
+[2025-09-01 10:29:49] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:29:51] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:30:11] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:30:13] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:33:53] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:34:44] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:34:50] [INFO] [::1] Database connection established successfully
+[2025-09-01 10:34:54] [INFO] [::1] Database connection established successfully
+[2025-09-01 18:08:39] [INFO] [::1] Database connection established successfully
+[2025-09-01 18:27:22] [INFO] [::1] Database connection established successfully
+[2025-09-01 18:27:23] [INFO] [::1] Session contents: Array
+(
+)
+
+[2025-09-01 18:27:37] [INFO] [::1] Session contents: Array
+(
+)
+
+[2025-09-01 18:27:37] [INFO] [::1] Database connection established successfully
+[2025-09-01 21:57:37] [INFO] [::1] User found: {"id":1,"name":"Anjali Kushwah ","email":"anjalikushwaha@gmail.com","password":"$2y$10$VT2lfHdUoZrjimGRLwHil.ryoIB.qlzfZznVKyaBuy64kiK4SMpLi","role":"admin","status":"active","reset_token":null,"reset_token_expires":null,"last_login":"2025-08-08 15:32:29","created_at":"2025-07-18 09:22:15","updated_at":"2025-08-08 15:32:29"}
+[2025-09-01 21:57:37] [INFO] [::1] Password verified successfully
+[2025-09-01 18:27:37] [INFO] [::1] Database connection established successfully
+[2025-09-01 21:57:37] [INFO] [::1] Application initialized
+[2025-09-01 21:57:37] [INFO] [::1] Admin dashboard accessed

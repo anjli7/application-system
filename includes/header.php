@@ -78,13 +78,7 @@ ob_start();
                     </a>
                 </li>
             <?php endif; ?>
-            <?php if ($_SESSION['user_role'] === 'admin'): ?>
-                <!-- <li class="<?php echo strpos($_SERVER['PHP_SELF'], 'users') !== false ? 'active' : ''; ?>">
-                    <a href="/application-system/admin/add_article.php">
-                        <i class="fas fa-plus"></i>  Article
-                    </a>
-                </li> -->
-            <?php endif; ?>
+           
             <?php if ($_SESSION['user_role'] === 'admin'): ?>
                 <li class="<?php echo strpos($_SERVER['PHP_SELF'], 'users') !== false ? 'active' : ''; ?>">
                     <a href="/application-system/admin/manage_articles.php">
