@@ -7,28 +7,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id          = intval($_POST['id']);
     $title       = mysqli_real_escape_string($conn, $_POST['title']);
     $description = mysqli_real_escape_string($conn, $_POST['description']);
-    $link        = mysqli_real_escape_string($conn, $_POST['link']);
+   
 
     // handle image upload if new file provided
     $image = null;
     if (!empty($_FILES['image']['name'])) {
         $uploadDir = "../uploads/articles/";
-        $imageName = time() . "_" . basename($_FILES['image']['name']);
+        $imageName =  time() . "_" . basename($_FILES['image']['name']);
         $uploadPath = $uploadDir . $imageName;
 
         if (move_uploaded_file($_FILES['image']['tmp_name'], $uploadPath)) {
-            $image = $imageName;
+            $image = "articles/" . $imageName;
         }
     }
 
     // build update query
     if ($image) {
         $sql = "UPDATE articles 
-                SET title='$title', description='$description', link='$link', image='$image' 
+                SET title='$title', description='$description', image='$image' 
                 WHERE id=$id";
     } else {
         $sql = "UPDATE articles 
-                SET title='$title', description='$description', link='$link' 
+                SET title='$title', description='$description'
                 WHERE id=$id";
     }
 
@@ -71,16 +71,11 @@ if (!$article) {
             <textarea name="description" class="form-control" rows="5"><?php echo htmlspecialchars($article['description']); ?></textarea>
         </div>
 
-        <div class="mb-3">
-            <label class="form-label">Link</label>
-            <input type="text" name="link" class="form-control" 
-                   value="<?php echo htmlspecialchars($article['link']); ?>">
-        </div>
 
         <div class="mb-3">
             <label class="form-label">Current Image</label><br>
             <?php if (!empty($article['image'])) { ?>
-                <img src="../uploads/articles/<?php echo $article['image']; ?>" width="120" class="mb-2"><br>
+                <img src="../uploads/<?php echo $article['image']; ?>" width="120" class="mb-2"><br>
             <?php } else { ?>
                 <span class="text-muted">No image</span><br>
             <?php } ?>

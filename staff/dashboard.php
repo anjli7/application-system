@@ -287,9 +287,7 @@ $total_apps = $assigned_to_me; // For staff, total apps are just the ones assign
                 <div class="mt-4 pt-3 border-top">
                     <h6 class="mb-3">Quick Actions</h6>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#newApplicationModal">
-                            <i class="fas fa-plus me-1"></i> New Application
-                        </button>
+                      
                         <a href="profile.php" class="btn btn-outline-secondary btn-sm">
                             <i class="fas fa-user-edit me-1"></i> Update Profile
                         </a>

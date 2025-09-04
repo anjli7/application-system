@@ -1,19 +1,21 @@
 <?php
-require_once '../php/db.php';
+// require_once '../php/db.php';
 require_once '../includes/header.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = mysqli_real_escape_string($conn, $_POST['title']);
     $description = mysqli_real_escape_string($conn, $_POST['description']);
-    $link = mysqli_real_escape_string($conn, $_POST['link']);
+   
 
     // Handle Image Upload
     $imageName = 'default.jpg';
     if (!empty($_FILES['image']['name'])) {
-        $imageName = uniqid('article_') . '.' . pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
-        $uploadPath = '../uploads/articles/' . $imageName;
+        $imageName = 'articles/' .  uniqid('article_') . '.' . pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
+        $uploadPath = $uploadDir . $imageName;
         move_uploaded_file($_FILES['image']['tmp_name'], $uploadPath);
+        
     }
+   
 
     // Insert into DB
     $query = "INSERT INTO articles (title, description, image, link) 
@@ -32,9 +34,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <label>Description</label>
     <textarea name="description" class="form-control" required></textarea><br>
-
-    <label>Link</label>
-    <input type="text" name="link" class="form-control"><br>
 
     <label>Image</label>
     <input type="file" name="image" class="form-control"><br>

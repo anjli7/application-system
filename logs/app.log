@@ -1,75 +1,11 @@
-[2025-08-31 14:11:34] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:11:35] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:11:35] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:11:35] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:13:48] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:13:57] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:14:15] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:14:17] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:16:51] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:02] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:04] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:06] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:07] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:10] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:11] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:11] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:11] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:12] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:13] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:13] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:14] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:14] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:14] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:15] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:15] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:16] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:18] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:20] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:18:48] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:19:35] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:19:36] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:19:37] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:19:37] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:19:37] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:20:47] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:20:48] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:20:48] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:20:49] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:20:59] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:21:40] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:21:47] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:21:48] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:21:49] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:21:50] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:21:53] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:15] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:19] [INFO] [::1] Database connection established successfully
-[2025-08-31 17:52:19] [INFO] [::1] Application initialized
-[2025-08-31 17:52:19] [INFO] [::1] Admin dashboard accessed
-[2025-08-31 14:22:27] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:29] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:30] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:31] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:32] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:36] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:41] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:41] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:22:44] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:25:19] [INFO] [::1] Database connection established successfully
-[2025-08-31 17:55:19] [INFO] [::1] Application initialized
-[2025-08-31 17:55:19] [INFO] [::1] Admin dashboard accessed
-[2025-08-31 14:25:20] [INFO] [::1] Database connection established successfully
-[2025-08-31 17:55:20] [INFO] [::1] Application initialized
-[2025-08-31 14:25:20] [INFO] [::1] Database connection established successfully
-[2025-08-31 17:55:20] [INFO] [::1] Application initialized
-[2025-08-31 14:25:34] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:25:39] [INFO] [::1] Application initialized
-[2025-08-31 17:55:39] [INFO] [::1] Database connection established successfully
-[2025-08-31 17:55:39] [INFO] [::1] File download attempt for application ID: 45, file: Samgra ID.pdf
-[2025-08-31 17:55:39] [ERROR] [::1] File not found: ../uploads/Samgra ID_20250803164426.pdf
-[2025-08-31 14:25:41] [INFO] [::1] Database connection established successfully
-[2025-08-31 14:29:04] [INFO] [::1] Database connection established successfully
-[2025-08-31 17:59:04] [INFO] [::1] Application initialized
-[2025-08-31 20:30:55] [INFO] [::1] Database connection established successfully
-[2025-09-01 00:00:55] [INFO] [::1] Application initialized
+[2025-09-03 19:54:07] [INFO] [::1] Database connection established successfully
+[2025-09-03 19:54:28] [INFO] [::1] Database connection established successfully
+[2025-09-03 19:54:40] [INFO] [::1] Database connection established successfully
+[2025-09-03 23:24:40] [INFO] [::1] Image name: articles/article_68b880e0b1427.jpg
+[2025-09-03 23:24:40] [INFO] [::1] Upload path: C:/xampp/htdocs/uploads/articles/article_68b880e0b1427.jpg
+[2025-09-03 20:03:06] [INFO] [::1] Database connection established successfully
+[2025-09-03 20:03:07] [INFO] [::1] Database connection established successfully
+[2025-09-03 20:05:43] [INFO] [::1] Database connection established successfully
+[2025-09-03 20:09:57] [INFO] [::1] Database connection established successfully
+[2025-09-04 07:54:24] [INFO] [::1] Database connection established successfully
+[2025-09-04 11:24:24] [INFO] [::1] Application initialized

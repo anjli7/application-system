@@ -19,7 +19,8 @@ $result = mysqli_query($conn, "SELECT * FROM articles ORDER BY created_at DESC")
     <tbody>
     <?php while($row = mysqli_fetch_assoc($result)) { ?>
         <tr>
-            <td><img src="../uploads/articles/<?php echo $row['image']; ?>" width="80"></td>
+            <!-- <td><img src="  <?php  echo $row['image']; ?>" width="80"></td> -->
+            <td><img src="<?php echo $fileURL . $row['image']; ?>" width="80"></td>
             <td><?php echo $row['title']; ?></td>
             <td><?php echo substr($row['description'], 0, 50) . '...'; ?></td>
             <td><?php echo date('M d, Y', strtotime($row['created_at'])); ?></td>

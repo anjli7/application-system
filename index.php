@@ -113,10 +113,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             border: none;
             padding: 10px;
             font-weight: 600;
+            color: #fff;
         }
-        .btn-login:hover {
-            background-color: #0b5ed7;
-        }
+      
         .form-footer {
             text-align: center;
             margin-top: 20px;
@@ -127,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="container">
         <div class="login-container">
             <div class="login-header">
-                <h2>Application System</h2>
+                <!-- <h2>Application System</h2> -->
                 <p class="text-muted">Sign in to your account</p>
             </div>
             
